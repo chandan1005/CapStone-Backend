@@ -1,0 +1,79 @@
+/* Global styles */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  background-color: #f4f6f8;
+}
+
+/* AppBar */
+.MuiAppBar-root {
+  background-color: #0d47a1;
+  color: #fff;
+}
+
+/* Drawer */
+.MuiDrawer-paper {
+  background-color: #1a237e;
+  color: #fff;
+}
+
+.MuiListItem-button {
+  color: #fff;
+}
+
+.MuiListItem-root.Mui-selected {
+  background-color: #283593;
+}
+
+.MuiListItemText-primary {
+  font-weight: bold;
+}
+
+/* Main content */
+.main {
+  padding: 20px;
+}
+
+/* Buttons */
+.MuiButton-root {
+  margin: 10px 0;
+  text-transform: none;
+}
+
+/* Typography */
+.MuiTypography-h4 {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.MuiTypography-body1 {
+  margin: 10px 0;
+}
+
+/* Paper */
+.MuiPaper-root {
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+/* Forms */
+.MuiFormControl-root {
+  margin: 20px 0;
+}
+
+/* Chart container */
+.chart-container {
+  height: 400px;
+}
+
+/* Logs */
+.logs-pre {
+  background-color: #e0e0e0;
+  padding: 10px;
+  border-radius: 4px;
+  overflow: auto;
+  max-height: 400px;
+}
